@@ -1,0 +1,12 @@
+# MAIN CODE BLOCK
+asect 0x00
+halt
+# MAIN CODE BLOCK
+
+
+# RESOURCE BLOCK
+asect 0xF0
+# RESOURCE BLOCK
+
+
+end
