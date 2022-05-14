@@ -115,8 +115,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1570,530)" to="(1620,530)"/>
     <wire from="(940,300)" to="(940,320)"/>
     <wire from="(1160,680)" to="(1160,690)"/>
-    <wire from="(1520,400)" to="(1520,410)"/>
     <wire from="(1570,450)" to="(1570,460)"/>
+    <wire from="(1520,400)" to="(1520,410)"/>
     <wire from="(20,210)" to="(20,310)"/>
     <wire from="(270,860)" to="(290,860)"/>
     <wire from="(700,550)" to="(790,550)"/>
@@ -149,6 +149,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(790,600)" to="(790,640)"/>
     <wire from="(700,620)" to="(720,620)"/>
     <wire from="(1130,330)" to="(1200,330)"/>
+    <wire from="(310,630)" to="(310,740)"/>
     <wire from="(1300,410)" to="(1330,410)"/>
     <wire from="(290,860)" to="(300,860)"/>
     <wire from="(1600,560)" to="(1620,560)"/>
@@ -158,14 +159,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(230,610)" to="(230,860)"/>
     <wire from="(1190,680)" to="(1190,720)"/>
     <wire from="(1530,490)" to="(1550,490)"/>
-    <wire from="(1130,410)" to="(1150,410)"/>
     <wire from="(710,640)" to="(720,640)"/>
+    <wire from="(1130,410)" to="(1150,410)"/>
     <wire from="(1180,460)" to="(1200,460)"/>
     <wire from="(20,510)" to="(80,510)"/>
     <wire from="(1000,300)" to="(1000,310)"/>
     <wire from="(1160,300)" to="(1160,320)"/>
     <wire from="(130,550)" to="(130,560)"/>
-    <wire from="(310,630)" to="(310,770)"/>
     <wire from="(1560,630)" to="(1600,630)"/>
     <wire from="(1690,510)" to="(1690,520)"/>
     <wire from="(830,380)" to="(870,380)"/>
@@ -184,14 +184,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1730,570)" to="(1810,570)"/>
     <wire from="(230,610)" to="(240,610)"/>
     <wire from="(1800,260)" to="(1800,560)"/>
-    <wire from="(1350,330)" to="(1350,410)"/>
     <wire from="(970,400)" to="(970,410)"/>
+    <wire from="(1350,330)" to="(1350,410)"/>
     <wire from="(830,420)" to="(830,430)"/>
     <wire from="(1300,720)" to="(1410,720)"/>
     <wire from="(850,440)" to="(850,450)"/>
     <wire from="(290,840)" to="(290,860)"/>
     <wire from="(1150,580)" to="(1150,590)"/>
-    <wire from="(150,770)" to="(310,770)"/>
     <wire from="(360,360)" to="(360,590)"/>
     <wire from="(100,750)" to="(130,750)"/>
     <wire from="(340,830)" to="(370,830)"/>
@@ -226,6 +225,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(430,720)" to="(430,950)"/>
     <wire from="(1520,720)" to="(1530,720)"/>
     <wire from="(1560,600)" to="(1570,600)"/>
+    <wire from="(150,740)" to="(310,740)"/>
     <wire from="(20,410)" to="(20,510)"/>
     <wire from="(350,20)" to="(370,20)"/>
     <wire from="(1750,310)" to="(1760,310)"/>
@@ -269,7 +269,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(840,250)" to="(900,250)"/>
     <wire from="(1110,320)" to="(1110,410)"/>
     <wire from="(380,680)" to="(380,690)"/>
-    <wire from="(310,770)" to="(310,780)"/>
     <wire from="(410,710)" to="(410,740)"/>
     <wire from="(1080,580)" to="(1080,590)"/>
     <wire from="(730,420)" to="(730,500)"/>
@@ -296,6 +295,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(40,150)" to="(40,160)"/>
     <wire from="(940,320)" to="(1000,320)"/>
     <wire from="(1310,300)" to="(1310,330)"/>
+    <wire from="(310,740)" to="(310,760)"/>
     <wire from="(1050,680)" to="(1050,690)"/>
     <wire from="(280,160)" to="(320,160)"/>
     <wire from="(140,90)" to="(240,90)"/>
@@ -339,8 +339,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(830,370)" to="(860,370)"/>
     <wire from="(220,890)" to="(240,890)"/>
     <wire from="(1190,410)" to="(1220,410)"/>
-    <wire from="(1020,330)" to="(1090,330)"/>
     <wire from="(1560,620)" to="(1590,620)"/>
+    <wire from="(1020,330)" to="(1090,330)"/>
     <wire from="(1080,680)" to="(1080,720)"/>
     <wire from="(80,830)" to="(150,830)"/>
     <wire from="(1560,280)" to="(1710,280)"/>
@@ -355,8 +355,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1160,320)" to="(1220,320)"/>
     <wire from="(150,840)" to="(150,860)"/>
     <wire from="(1270,680)" to="(1270,690)"/>
-    <wire from="(1150,400)" to="(1150,410)"/>
     <wire from="(1810,250)" to="(1810,570)"/>
+    <wire from="(1150,400)" to="(1150,410)"/>
     <wire from="(160,50)" to="(160,80)"/>
     <wire from="(1600,560)" to="(1600,630)"/>
     <wire from="(1570,530)" to="(1570,600)"/>
@@ -394,9 +394,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1520,580)" to="(1520,590)"/>
     <wire from="(720,580)" to="(720,600)"/>
     <wire from="(20,940)" to="(50,940)"/>
-    <wire from="(1240,330)" to="(1310,330)"/>
     <wire from="(840,250)" to="(840,350)"/>
     <wire from="(850,260)" to="(850,360)"/>
+    <wire from="(1240,330)" to="(1310,330)"/>
     <wire from="(870,280)" to="(870,380)"/>
     <wire from="(880,290)" to="(880,390)"/>
     <wire from="(860,270)" to="(860,370)"/>
@@ -422,6 +422,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(150,140)" to="(150,160)"/>
     <wire from="(230,60)" to="(230,80)"/>
     <wire from="(410,880)" to="(410,910)"/>
+    <wire from="(150,650)" to="(150,740)"/>
     <wire from="(310,140)" to="(310,170)"/>
     <wire from="(1110,300)" to="(1110,310)"/>
     <wire from="(1490,680)" to="(1490,690)"/>
@@ -435,7 +436,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(140,80)" to="(160,80)"/>
     <wire from="(340,610)" to="(350,610)"/>
     <wire from="(180,40)" to="(250,40)"/>
-    <wire from="(150,650)" to="(150,770)"/>
     <wire from="(1480,460)" to="(1500,460)"/>
     <wire from="(1160,460)" to="(1180,460)"/>
     <wire from="(230,860)" to="(230,920)"/>
@@ -445,8 +445,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1790,270)" to="(1790,550)"/>
     <wire from="(20,210)" to="(80,210)"/>
     <wire from="(1760,280)" to="(1760,310)"/>
-    <wire from="(1460,330)" to="(1460,410)"/>
     <wire from="(1630,470)" to="(1630,500)"/>
+    <wire from="(1460,330)" to="(1460,410)"/>
     <wire from="(1410,720)" to="(1520,720)"/>
     <wire from="(130,250)" to="(130,260)"/>
     <wire from="(450,730)" to="(450,740)"/>
@@ -543,324 +543,71 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(220,210)" to="(230,210)"/>
     <wire from="(910,330)" to="(980,330)"/>
     <wire from="(1280,460)" to="(1300,460)"/>
-    <comp lib="7" loc="(1230,650)" name="Button Driver"/>
-    <comp lib="5" loc="(1190,580)" name="Hex Digit Display">
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="0" loc="(700,590)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Data"/>
+    <comp lib="0" loc="(250,20)" name="Tunnel">
+      <a name="label" val="Instructions"/>
       <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
-    <comp lib="5" loc="(1410,400)" name="Hex Digit Display">
+    <comp lib="4" loc="(220,610)" name="RAM">
+      <a name="addrWidth" val="4"/>
+    </comp>
+    <comp lib="5" loc="(1060,460)" name="LED">
+      <a name="facing" val="south"/>
       <a name="color" val="#e84855"/>
     </comp>
-    <comp lib="0" loc="(1570,450)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="H"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="4" loc="(220,210)" name="ROM">
-      <a name="contents">addr/data: 8 8
-d0 f0 d2 0 d3 0 a1 cd
-f0 d2 4 d3 0 d0 f1 d1
-f7 74 ed 18 a2 8c ee 11
-a3 d0 f9 d1 ff 74 ed 24
-a2 8c ee 1d a3 d1 2 ee
-</a>
-    </comp>
-    <comp lib="5" loc="(1270,690)" name="Button">
-      <a name="facing" val="north"/>
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="0" loc="(370,830)" name="Tunnel">
-      <a name="label" val="Data"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="0" loc="(390,680)" name="Tunnel">
-      <a name="label" val="Checking rules"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="0" loc="(250,80)" name="Tunnel">
-      <a name="label" val="R / W"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="5" loc="(940,690)" name="Button">
-      <a name="facing" val="north"/>
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="1" loc="(220,890)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-      <a name="negate0" val="true"/>
-    </comp>
-    <comp lib="5" loc="(1650,490)" name="Hex Digit Display">
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="0" loc="(320,140)" name="Tunnel">
-      <a name="label" val="Gamepad"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="7" loc="(1120,590)" name="Button Register"/>
-    <comp lib="11" loc="(1050,270)" name="Computer Node"/>
-    <comp lib="5" loc="(1260,400)" name="Hex Digit Display">
-      <a name="color" val="#e84855"/>
-    </comp>
-    <comp lib="0" loc="(50,940)" name="Tunnel">
-      <a name="width" val="8"/>
-      <a name="label" val="Address Bus"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="2" loc="(350,610)" name="Decoder">
-      <a name="facing" val="north"/>
-      <a name="select" val="2"/>
-      <a name="disabled" val="0"/>
-    </comp>
-    <comp lib="0" loc="(820,570)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="Clock"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="5" loc="(1750,440)" name="LED">
-      <a name="facing" val="east"/>
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="0" loc="(1750,430)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="H"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="5" loc="(1300,460)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#57a773"/>
-    </comp>
-    <comp lib="1" loc="(160,160)" name="Controlled Buffer">
-      <a name="facing" val="west"/>
-      <a name="width" val="8"/>
-    </comp>
-    <comp lib="7" loc="(1340,650)" name="Button Driver"/>
-    <comp lib="11" loc="(1380,270)" name="Computer Node"/>
     <comp lib="0" loc="(390,660)" name="Tunnel">
       <a name="label" val="Game starts"/>
       <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
-    <comp lib="5" loc="(1200,460)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#ffcf00"/>
-    </comp>
-    <comp lib="7" loc="(1010,650)" name="Button Driver"/>
-    <comp lib="0" loc="(1600,450)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="D"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="5" loc="(1040,580)" name="Hex Digit Display">
+    <comp lib="11" loc="(1490,270)" name="Computer Node"/>
+    <comp lib="5" loc="(1080,580)" name="Hex Digit Display">
       <a name="color" val="#067bc2"/>
+      <a name="bg" val="#d9d9d9"/>
     </comp>
-    <comp lib="5" loc="(1280,460)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#157145"/>
-    </comp>
-    <comp lib="0" loc="(290,220)" name="Tunnel">
-      <a name="width" val="8"/>
-      <a name="label" val="G.Out"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="11" loc="(1280,600)" name="Human Node"/>
-    <comp lib="10" loc="(890,430)" name="Win-Lose-Draw">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="0" loc="(900,610)" name="Constant">
-      <a name="width" val="4"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="5" loc="(1080,460)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#e84855"/>
-    </comp>
-    <comp lib="5" loc="(1480,460)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="1" loc="(480,940)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(1080,460)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="Machine thinks"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="5" loc="(930,400)" name="Hex Digit Display">
-      <a name="color" val="#e84855"/>
-    </comp>
-    <comp lib="0" loc="(250,40)" name="Tunnel">
-      <a name="label" val="Data"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="0" loc="(710,390)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="8"/>
-      <a name="label" val="G.Out"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="0" loc="(1530,490)" name="Pull Resistor">
-      <a name="facing" val="east"/>
-      <a name="pull" val="1"/>
-    </comp>
-    <comp lib="6" loc="(292,251)" name="Text">
-      <a name="text" val="Initialization"/>
-      <a name="font" val="SansSerif bold 14"/>
-    </comp>
-    <comp lib="7" loc="(900,650)" name="Button Driver"/>
-    <comp lib="5" loc="(1150,400)" name="Hex Digit Display">
-      <a name="color" val="#e84855"/>
-    </comp>
-    <comp lib="0" loc="(250,100)" name="Tunnel">
-      <a name="width" val="8"/>
-      <a name="label" val="Address Bus"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="0" loc="(900,430)" name="Tunnel">
-      <a name="label" val="D"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="5" loc="(1520,580)" name="Hex Digit Display">
-      <a name="color" val="#067bc2"/>
-    </comp>
+    <comp lib="11" loc="(1160,270)" name="Computer Node"/>
     <comp lib="0" loc="(700,550)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="Gamepad"/>
       <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
-    <comp lib="5" loc="(1360,460)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#c5fffd"/>
+    <comp lib="1" loc="(480,900)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="9" loc="(720,620)" name="Gamepad Address Manager"/>
-    <comp lib="5" loc="(1370,400)" name="Hex Digit Display">
-      <a name="color" val="#e84855"/>
-    </comp>
-    <comp lib="0" loc="(370,20)" name="Clock">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(1520,400)" name="Hex Digit Display">
-      <a name="color" val="#e84855"/>
-    </comp>
-    <comp lib="11" loc="(1060,600)" name="Human Node"/>
-    <comp lib="1" loc="(180,130)" name="NOT Gate">
-      <a name="facing" val="west"/>
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="5" loc="(1400,460)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#c5fffd"/>
-    </comp>
-    <comp lib="0" loc="(40,160)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="Clock"/>
+    <comp lib="0" loc="(280,810)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Memory"/>
       <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="5" loc="(700,460)" name="LED">
-      <a name="color" val="#e84855"/>
-    </comp>
-    <comp lib="0" loc="(60,900)" name="Constant">
-      <a name="facing" val="north"/>
-      <a name="width" val="8"/>
-      <a name="value" val="0xf8"/>
-    </comp>
-    <comp lib="1" loc="(180,120)" name="Controlled Buffer">
-      <a name="width" val="8"/>
-    </comp>
-    <comp lib="2" loc="(170,50)" name="Decoder">
-      <a name="disabled" val="0"/>
-    </comp>
-    <comp lib="11" loc="(1390,600)" name="Human Node"/>
-    <comp lib="4" loc="(330,860)" name="Register">
-      <a name="trigger" val="low"/>
-    </comp>
-    <comp lib="5" loc="(1460,460)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="11" loc="(1160,270)" name="Computer Node"/>
-    <comp lib="5" loc="(1060,460)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#e84855"/>
-    </comp>
-    <comp lib="5" loc="(1490,690)" name="Button">
-      <a name="facing" val="north"/>
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="0" loc="(1560,310)" name="Pull Resistor">
-      <a name="facing" val="west"/>
-      <a name="pull" val="1"/>
-    </comp>
-    <comp lib="5" loc="(790,490)" name="Hex Digit Display">
-      <a name="color" val="#e84855"/>
     </comp>
     <comp lib="0" loc="(1550,470)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="C"/>
       <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
-    <comp lib="5" loc="(700,440)" name="LED">
-      <a name="color" val="#e84855"/>
-    </comp>
-    <comp lib="5" loc="(1100,460)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#e84855"/>
-    </comp>
-    <comp lib="0" loc="(370,880)" name="Constant">
-      <a name="facing" val="north"/>
-      <a name="width" val="8"/>
-      <a name="value" val="0xff"/>
-    </comp>
-    <comp lib="5" loc="(1380,690)" name="Button">
-      <a name="facing" val="north"/>
+    <comp lib="5" loc="(1150,580)" name="Hex Digit Display">
       <a name="color" val="#067bc2"/>
+      <a name="bg" val="#d9d9d9"/>
     </comp>
-    <comp lib="0" loc="(70,860)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="4"/>
-      <a name="label" val="Button"/>
+    <comp lib="11" loc="(1060,600)" name="Human Node"/>
+    <comp lib="5" loc="(1300,460)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#57a773"/>
+    </comp>
+    <comp lib="0" loc="(1280,460)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="Checking rules"/>
       <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
-    <comp lib="5" loc="(960,460)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#ff969b"/>
-    </comp>
-    <comp lib="0" loc="(440,700)" name="Tunnel">
-      <a name="label" val="Calculating user"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="5" loc="(1480,580)" name="Hex Digit Display">
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="11" loc="(760,370)" name="Computer Node"/>
-    <comp lib="7" loc="(1120,650)" name="Button Driver"/>
-    <comp lib="9" loc="(60,790)" name="Is Equal (8 bits)"/>
-    <comp lib="0" loc="(100,770)" name="Constant">
-      <a name="facing" val="west"/>
+    <comp lib="1" loc="(270,860)" name="Controlled Buffer">
       <a name="width" val="8"/>
-      <a name="value" val="0xf0"/>
-    </comp>
-    <comp lib="9" loc="(1750,310)" name="Increment (4 bits)">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(750,490)" name="Hex Digit Display">
-      <a name="color" val="#e84855"/>
-    </comp>
-    <comp lib="5" loc="(1080,400)" name="Hex Digit Display">
-      <a name="color" val="#e84855"/>
-    </comp>
-    <comp lib="7" loc="(1010,300)" name="Button Register">
-      <a name="facing" val="west"/>
     </comp>
     <comp lib="0" loc="(350,20)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="Clock"/>
       <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="5" loc="(1460,460)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#067bc2"/>
     </comp>
     <comp lib="0" loc="(700,620)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -868,21 +615,8 @@ a2 8c ee 1d a3 d1 2 ee
       <a name="label" val="Address Bus"/>
       <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
-    <comp lib="7" loc="(900,590)" name="Button Register"/>
-    <comp lib="0" loc="(250,20)" name="Tunnel">
-      <a name="label" val="Instructions"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="5" loc="(1410,580)" name="Hex Digit Display">
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="1" loc="(280,160)" name="Controlled Buffer">
-      <a name="width" val="8"/>
-    </comp>
+    <comp lib="1" loc="(420,700)" name="Controlled Buffer"/>
     <comp lib="11" loc="(1170,600)" name="Human Node"/>
-    <comp lib="5" loc="(1370,580)" name="Hex Digit Display">
-      <a name="color" val="#067bc2"/>
-    </comp>
     <comp lib="2" loc="(340,680)" name="Decoder">
       <a name="selloc" val="tr"/>
       <a name="select" val="2"/>
@@ -893,11 +627,465 @@ a2 8c ee 1d a3 d1 2 ee
       <a name="facing" val="south"/>
       <a name="color" val="#ee6123"/>
     </comp>
-    <comp lib="1" loc="(460,720)" name="Controlled Buffer"/>
-    <comp lib="11" loc="(1270,270)" name="Computer Node"/>
-    <comp lib="1" loc="(480,900)" name="AND Gate">
+    <comp lib="0" loc="(1570,450)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="H"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="5" loc="(1370,580)" name="Hex Digit Display">
+      <a name="color" val="#067bc2"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="7" loc="(1450,300)" name="Button Register">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(1180,460)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="Game starts"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="5" loc="(1040,580)" name="Hex Digit Display">
+      <a name="color" val="#067bc2"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="0" loc="(70,860)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="4"/>
+      <a name="label" val="Button"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="7" loc="(1120,300)" name="Button Register">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="9" loc="(360,860)" name="Is Equal (8 bits)"/>
+    <comp lib="0" loc="(880,450)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="H"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="5" loc="(790,490)" name="Hex Digit Display">
+      <a name="color" val="#e84855"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="5" loc="(1190,580)" name="Hex Digit Display">
+      <a name="color" val="#067bc2"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="5" loc="(980,460)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#f2545b"/>
+    </comp>
+    <comp lib="5" loc="(1000,460)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#ff969b"/>
+    </comp>
+    <comp lib="5" loc="(1160,460)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#fa003f"/>
+    </comp>
+    <comp lib="11" loc="(950,600)" name="Human Node"/>
+    <comp lib="0" loc="(320,140)" name="Tunnel">
+      <a name="label" val="Gamepad"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="0" loc="(710,390)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="8"/>
+      <a name="label" val="G.Out"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="0" loc="(370,20)" name="Clock">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="7" loc="(1230,650)" name="Button Driver"/>
+    <comp lib="5" loc="(1300,580)" name="Hex Digit Display">
+      <a name="color" val="#067bc2"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="5" loc="(1410,580)" name="Hex Digit Display">
+      <a name="color" val="#067bc2"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="11" loc="(1050,270)" name="Computer Node"/>
+    <comp lib="0" loc="(370,830)" name="Tunnel">
+      <a name="label" val="Data"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="7" loc="(1120,650)" name="Button Driver"/>
+    <comp lib="4" loc="(220,210)" name="ROM">
+      <a name="contents">addr/data: 8 8
+d0 f0 d2 0 d3 0 a1 cd
+f0 d2 4 d3 0 d0 f1 d1
+f7 74 ed 18 a2 8c ee 11
+a3 d0 f9 d1 ff 74 ed 24
+a2 8c ee 1d a3 d1 2 ee
+</a>
+    </comp>
+    <comp lib="0" loc="(1530,490)" name="Pull Resistor">
+      <a name="facing" val="east"/>
+      <a name="pull" val="1"/>
+    </comp>
+    <comp lib="5" loc="(1160,690)" name="Button">
+      <a name="facing" val="north"/>
+      <a name="color" val="#067bc2"/>
+    </comp>
+    <comp lib="11" loc="(940,270)" name="Computer Node"/>
+    <comp lib="5" loc="(970,400)" name="Hex Digit Display">
+      <a name="color" val="#e84855"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="0" loc="(180,720)" name="Tunnel">
+      <a name="label" val="R / W"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="7" loc="(1010,300)" name="Button Register">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="8" loc="(140,100)" name="CdM_8_mark5"/>
+    <comp lib="5" loc="(1100,460)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#e84855"/>
+    </comp>
+    <comp lib="5" loc="(700,480)" name="LED">
+      <a name="color" val="#e84855"/>
+    </comp>
+    <comp lib="7" loc="(1340,300)" name="Button Register">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="9" loc="(60,790)" name="Is Equal (8 bits)"/>
+    <comp lib="1" loc="(480,940)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(40,160)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="Clock"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="1" loc="(220,930)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(860,660)" name="Controlled Buffer">
+      <a name="facing" val="west"/>
+      <a name="width" val="4"/>
+      <a name="control" val="left"/>
+    </comp>
+    <comp lib="6" loc="(292,251)" name="Text">
+      <a name="text" val="Initialization"/>
+      <a name="font" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="7" loc="(1450,650)" name="Button Driver"/>
+    <comp lib="0" loc="(280,610)" name="Bit Extender">
+      <a name="out_width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1530,720)" name="Pull Resistor">
+      <a name="facing" val="west"/>
+      <a name="pull" val="1"/>
+    </comp>
+    <comp lib="11" loc="(1670,530)" name="Human Node"/>
+    <comp lib="0" loc="(470,720)" name="Tunnel">
+      <a name="label" val="Calculating machine"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="5" loc="(1400,460)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#c5fffd"/>
+    </comp>
+    <comp lib="9" loc="(1750,310)" name="Increment (4 bits)">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(700,480)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1560,660)" name="Constant">
+      <a name="facing" val="west"/>
+      <a name="width" val="4"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(980,460)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="Calculating machine"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="0" loc="(1560,310)" name="Pull Resistor">
+      <a name="facing" val="west"/>
+      <a name="pull" val="1"/>
+    </comp>
+    <comp lib="5" loc="(1750,440)" name="LED">
+      <a name="facing" val="east"/>
+      <a name="color" val="#067bc2"/>
+    </comp>
+    <comp lib="5" loc="(1650,490)" name="Hex Digit Display">
+      <a name="color" val="#067bc2"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="1" loc="(180,130)" name="NOT Gate">
+      <a name="facing" val="west"/>
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="5" loc="(1360,460)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#c5fffd"/>
+    </comp>
+    <comp lib="5" loc="(1490,690)" name="Button">
+      <a name="facing" val="north"/>
+      <a name="color" val="#067bc2"/>
+    </comp>
+    <comp lib="5" loc="(1480,580)" name="Hex Digit Display">
+      <a name="color" val="#067bc2"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="5" loc="(1380,460)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#88d9e6"/>
+    </comp>
+    <comp lib="5" loc="(960,460)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#ff969b"/>
+    </comp>
+    <comp lib="0" loc="(1080,460)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="Machine thinks"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="5" loc="(750,490)" name="Hex Digit Display">
+      <a name="color" val="#e84855"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="0" loc="(60,900)" name="Constant">
+      <a name="facing" val="north"/>
+      <a name="width" val="8"/>
+      <a name="value" val="0xf8"/>
+    </comp>
+    <comp lib="7" loc="(1560,300)" name="Button Register">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="7" loc="(1010,590)" name="Button Register"/>
+    <comp lib="7" loc="(1340,590)" name="Button Register"/>
+    <comp lib="0" loc="(820,570)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="Clock"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="5" loc="(1260,460)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#57a773"/>
+    </comp>
+    <comp lib="1" loc="(410,860)" name="NOT Gate">
+      <a name="facing" val="north"/>
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="0" loc="(1750,430)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="H"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="5" loc="(700,440)" name="LED">
+      <a name="color" val="#e84855"/>
+    </comp>
+    <comp lib="7" loc="(1450,590)" name="Button Register"/>
+    <comp lib="1" loc="(880,720)" name="NOT Gate">
+      <a name="facing" val="west"/>
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="5" loc="(1260,580)" name="Hex Digit Display">
+      <a name="color" val="#067bc2"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="5" loc="(940,690)" name="Button">
+      <a name="facing" val="north"/>
+      <a name="color" val="#067bc2"/>
+    </comp>
+    <comp lib="4" loc="(220,510)" name="ROM">
+      <a name="contents">addr/data: 8 8
+d0 f0 d2 0 d3 0 a1 d0
+f8 d1 ff a1 d0 f9 d2 d
+d3 ff 73 ea 28 b1 76 eb
+1f 36 9 d2 d ee 16 11
+77 e1 25 ee 52 8c ee 12
+d0 f9 d3 ff 73 ea 41 b1
+76 e0 3c 11 b7 f e1 3e
+b1 5 ed 3e ee 52 8c ee
+2a d0 ff 88 d1 f9 71 eb
+52 b2 a ed 4f ee 52 88
+ee 46 d3 e1 ac 1 d0 f8
+d2 f0 a2 b4 d2 0 a6 0
+ed 77 d2 ff 76 e1 69 d1
+f0 8d d2 f7 76 e1 71 d1
+f9 b7 8f a7 88 ee 5f d3
+e2 ad d3 e0 d2 3 ae d1
+1 ee
+</a>
+    </comp>
+    <comp lib="5" loc="(1270,690)" name="Button">
+      <a name="facing" val="north"/>
+      <a name="color" val="#067bc2"/>
+    </comp>
+    <comp lib="5" loc="(1190,400)" name="Hex Digit Display">
+      <a name="color" val="#e84855"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="5" loc="(1690,490)" name="Hex Digit Display">
+      <a name="color" val="#067bc2"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="2" loc="(350,610)" name="Decoder">
+      <a name="facing" val="north"/>
+      <a name="select" val="2"/>
+      <a name="disabled" val="0"/>
+    </comp>
+    <comp lib="11" loc="(1280,600)" name="Human Node"/>
+    <comp lib="5" loc="(1080,460)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#e84855"/>
+    </comp>
+    <comp lib="7" loc="(900,650)" name="Button Driver"/>
+    <comp lib="0" loc="(50,940)" name="Tunnel">
+      <a name="width" val="8"/>
+      <a name="label" val="Address Bus"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="0" loc="(320,160)" name="Tunnel">
+      <a name="width" val="8"/>
+      <a name="label" val="G.In"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="0" loc="(250,80)" name="Tunnel">
+      <a name="label" val="R / W"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="1" loc="(160,160)" name="Controlled Buffer">
+      <a name="facing" val="west"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="5" loc="(1750,480)" name="LED">
+      <a name="facing" val="east"/>
+      <a name="color" val="#067bc2"/>
+    </comp>
+    <comp lib="5" loc="(1080,400)" name="Hex Digit Display">
+      <a name="color" val="#e84855"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="7" loc="(1340,650)" name="Button Driver"/>
+    <comp lib="7" loc="(1620,520)" name="Button Register"/>
+    <comp lib="0" loc="(700,590)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Data"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="1" loc="(280,160)" name="Controlled Buffer">
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="6" loc="(292,351)" name="Text">
+      <a name="text" val="Referee"/>
+      <a name="font" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="5" loc="(1520,400)" name="Hex Digit Display">
+      <a name="color" val="#e84855"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="1" loc="(180,120)" name="Controlled Buffer">
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="7" loc="(1230,300)" name="Button Register">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(1040,400)" name="Hex Digit Display">
+      <a name="color" val="#e84855"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="5" loc="(1200,460)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#ffcf00"/>
+    </comp>
+    <comp lib="0" loc="(310,890)" name="Constant">
+      <a name="facing" val="north"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="5" loc="(1750,460)" name="LED">
+      <a name="facing" val="east"/>
+      <a name="color" val="#067bc2"/>
+    </comp>
+    <comp lib="0" loc="(900,610)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(900,430)" name="Tunnel">
+      <a name="label" val="D"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="11" loc="(1270,270)" name="Computer Node"/>
+    <comp lib="5" loc="(1260,400)" name="Hex Digit Display">
+      <a name="color" val="#e84855"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="6" loc="(292,551)" name="Text">
+      <a name="text" val="Computer"/>
+      <a name="font" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="5" loc="(1050,690)" name="Button">
+      <a name="facing" val="north"/>
+      <a name="color" val="#067bc2"/>
+    </comp>
+    <comp lib="5" loc="(1380,690)" name="Button">
+      <a name="facing" val="north"/>
+      <a name="color" val="#067bc2"/>
+    </comp>
+    <comp lib="0" loc="(860,600)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="8"/>
+      <a name="label" val="G.In"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="10" loc="(1560,470)" name="Win-Lose-Draw"/>
+    <comp lib="0" loc="(390,680)" name="Tunnel">
+      <a name="label" val="Checking rules"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="0" loc="(1380,460)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="Awaiting user"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="1" loc="(220,890)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="negate0" val="true"/>
+    </comp>
+    <comp lib="5" loc="(1280,460)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#157145"/>
+    </comp>
+    <comp lib="0" loc="(250,100)" name="Tunnel">
+      <a name="width" val="8"/>
+      <a name="label" val="Address Bus"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="4" loc="(220,310)" name="ROM">
+      <a name="contents">addr/data: 8 8
+d0 f0 d2 0 d3 0 a1 d0
+e2 b2 d1 f7 79 e0 51 d1
+ff 79 e0 51 d1 1 b8 74
+e1 51 d0 e1 d1 e2 b2 b7
+6b 9b 9b 9b e1 51 b4 3
+d2 ff 3b d2 f0 1b be a
+e1 34 ee 51 d2 e2 b2 d1
+0 a1 c b1 8d d2 0 a2
+d3 e0 bc d2 2 72 e1 4c
+d2 f7 ee 4e d2 ff b8 14
+a8 d2 0 d0 f9 d1 ff d6
+9c d0 f1 d1 f7 d6 9c a
+e1 63 d4 d2 0 d0 f1 d6
+9c a e1 70 d1 3 ee 0
+d2 e2 b9 71 e1 7a d1 2
+ee 0 d0 f9 d1 ff d2 0
+d6 9c a e1 89 d1 2 ee
+0 d2 e2 b9 71 e1 93 d1
+3 ee 0 d1 5 d3 e0 bc
+34 1 ee 0 71 e0 a4 b3
+1e 8c ee 9c d7
+</a>
     </comp>
     <comp lib="4" loc="(220,410)" name="ROM">
       <a name="contents">addr/data: 8 8
@@ -911,45 +1099,17 @@ d2 f8 76 e1 26 8d d2 ff
 d2 2 ae d1 1 ee
 </a>
     </comp>
-    <comp lib="0" loc="(1480,460)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="Calculating user"/>
+    <comp lib="0" loc="(250,60)" name="Tunnel">
+      <a name="label" val="Memory"/>
       <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
-    <comp lib="1" loc="(130,910)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="8" loc="(140,100)" name="CdM_8_mark5"/>
-    <comp lib="7" loc="(1450,590)" name="Button Register"/>
-    <comp lib="5" loc="(1040,400)" name="Hex Digit Display">
-      <a name="color" val="#e84855"/>
-    </comp>
-    <comp lib="5" loc="(970,580)" name="Hex Digit Display">
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="7" loc="(1120,300)" name="Button Register">
+    <comp lib="0" loc="(100,770)" name="Constant">
       <a name="facing" val="west"/>
+      <a name="width" val="8"/>
+      <a name="value" val="0xf0"/>
     </comp>
-    <comp lib="2" loc="(300,170)" name="Decoder">
-      <a name="facing" val="west"/>
-      <a name="selloc" val="tr"/>
-      <a name="disabled" val="0"/>
-    </comp>
-    <comp lib="1" loc="(880,720)" name="NOT Gate">
-      <a name="facing" val="west"/>
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="5" loc="(1080,580)" name="Hex Digit Display">
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="0" loc="(880,450)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="H"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="5" loc="(1160,690)" name="Button">
-      <a name="facing" val="north"/>
+    <comp lib="5" loc="(1480,460)" name="LED">
+      <a name="facing" val="south"/>
       <a name="color" val="#067bc2"/>
     </comp>
     <comp lib="0" loc="(700,430)" name="Tunnel">
@@ -957,176 +1117,16 @@ d2 2 ae d1 1 ee
       <a name="label" val="C"/>
       <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
-    <comp lib="4" loc="(220,310)" name="ROM">
-      <a name="contents">addr/data: 8 8
-d0 f0 d2 0 d3 0 a1 d0
-e2 d1 f7 71 e0 27 d1 ff
-71 e0 27 d1 1 b2 76 e1
-27 b1 d2 ff 36 d1 f0 16
-b9 b3 17 d1 0 a9 a3 d2
-0 d0 f9 d1 ff d6 72 d0
-f1 d1 f7 d6 72 a e1 39
-d4 d2 0 d0 f1 d6 72 a
-e1 46 d1 3 ee 0 d2 e2
-b9 71 e1 50 d1 2 ee 0
-d0 f9 d1 ff d2 0 d6 72
-a e1 5f d1 2 ee 0 d2
-e2 b9 71 e1 69 d1 3 ee
-0 d1 5 d3 e0 bc 34 1
-ee 0 71 e0 7a b3 1e 8c
-ee 72 d7
-</a>
-    </comp>
-    <comp lib="9" loc="(40,730)" name="RAM Address Manager"/>
-    <comp lib="0" loc="(500,900)" name="Tunnel">
-      <a name="label" val="Awaiting user"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="5" loc="(1260,580)" name="Hex Digit Display">
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="0" loc="(700,480)" name="Pull Resistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(700,570)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="R / W"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="1" loc="(420,700)" name="Controlled Buffer"/>
-    <comp lib="5" loc="(1480,400)" name="Hex Digit Display">
+    <comp lib="9" loc="(720,620)" name="Gamepad Address Manager"/>
+    <comp lib="9" loc="(50,890)" name="Is Equal (8 bits)"/>
+    <comp lib="5" loc="(1370,400)" name="Hex Digit Display">
       <a name="color" val="#e84855"/>
+      <a name="bg" val="#d9d9d9"/>
     </comp>
-    <comp lib="0" loc="(860,600)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="8"/>
-      <a name="label" val="G.In"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="5" loc="(1750,460)" name="LED">
-      <a name="facing" val="east"/>
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="0" loc="(180,720)" name="Tunnel">
-      <a name="label" val="R / W"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="5" loc="(1190,400)" name="Hex Digit Display">
-      <a name="color" val="#e84855"/>
-    </comp>
-    <comp lib="6" loc="(292,451)" name="Text">
-      <a name="text" val="Human"/>
-      <a name="font" val="SansSerif bold 14"/>
-    </comp>
-    <comp lib="7" loc="(830,400)" name="Button Register">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(280,900)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(850,660)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="4"/>
-      <a name="label" val="Button"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="5" loc="(700,480)" name="LED">
-      <a name="color" val="#e84855"/>
-    </comp>
-    <comp lib="5" loc="(1380,460)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#88d9e6"/>
-    </comp>
-    <comp lib="6" loc="(292,351)" name="Text">
-      <a name="text" val="Referee"/>
-      <a name="font" val="SansSerif bold 14"/>
-    </comp>
-    <comp lib="5" loc="(1000,460)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#ff969b"/>
-    </comp>
-    <comp lib="7" loc="(1010,590)" name="Button Register"/>
-    <comp lib="9" loc="(360,860)" name="Is Equal (8 bits)"/>
-    <comp lib="7" loc="(1340,300)" name="Button Register">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(1750,480)" name="LED">
-      <a name="facing" val="east"/>
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="0" loc="(130,860)" name="Bit Extender">
-      <a name="in_width" val="4"/>
-      <a name="out_width" val="8"/>
-      <a name="type" val="one"/>
-    </comp>
-    <comp lib="5" loc="(980,460)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#f2545b"/>
-    </comp>
-    <comp lib="0" loc="(250,60)" name="Tunnel">
-      <a name="label" val="Memory"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="5" loc="(1150,580)" name="Hex Digit Display">
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="1" loc="(410,860)" name="NOT Gate">
-      <a name="facing" val="north"/>
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="11" loc="(940,270)" name="Computer Node"/>
-    <comp lib="7" loc="(1560,300)" name="Button Register">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="0" loc="(320,160)" name="Tunnel">
-      <a name="width" val="8"/>
-      <a name="label" val="G.In"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="5" loc="(1160,460)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#fa003f"/>
-    </comp>
-    <comp lib="5" loc="(1050,690)" name="Button">
-      <a name="facing" val="north"/>
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="1" loc="(220,930)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(270,860)" name="Controlled Buffer">
-      <a name="width" val="8"/>
-    </comp>
-    <comp lib="7" loc="(1340,590)" name="Button Register"/>
-    <comp lib="0" loc="(1530,720)" name="Pull Resistor">
-      <a name="facing" val="west"/>
-      <a name="pull" val="1"/>
-    </comp>
-    <comp lib="5" loc="(970,400)" name="Hex Digit Display">
-      <a name="color" val="#e84855"/>
-    </comp>
-    <comp lib="5" loc="(1300,580)" name="Hex Digit Display">
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="0" loc="(1560,660)" name="Constant">
-      <a name="facing" val="west"/>
-      <a name="width" val="4"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="5" loc="(1260,460)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#57a773"/>
-    </comp>
-    <comp lib="0" loc="(850,450)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="C"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="0" loc="(1280,460)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="Checking rules"/>
+    <comp lib="1" loc="(460,720)" name="Controlled Buffer"/>
+    <comp lib="7" loc="(1120,590)" name="Button Register"/>
+    <comp lib="0" loc="(250,40)" name="Tunnel">
+      <a name="label" val="Data"/>
       <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
     <comp lib="1" loc="(350,770)" name="AND Gate">
@@ -1135,9 +1135,85 @@ ee 72 d7
       <a name="inputs" val="2"/>
       <a name="negate0" val="true"/>
     </comp>
+    <comp lib="5" loc="(930,580)" name="Hex Digit Display">
+      <a name="color" val="#067bc2"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="11" loc="(1380,270)" name="Computer Node"/>
+    <comp lib="11" loc="(1500,600)" name="Human Node"/>
+    <comp lib="2" loc="(300,170)" name="Decoder">
+      <a name="facing" val="west"/>
+      <a name="selloc" val="tr"/>
+      <a name="disabled" val="0"/>
+    </comp>
+    <comp lib="1" loc="(220,790)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+      <a name="negate0" val="true"/>
+    </comp>
+    <comp lib="0" loc="(370,880)" name="Constant">
+      <a name="facing" val="north"/>
+      <a name="width" val="8"/>
+      <a name="value" val="0xff"/>
+    </comp>
+    <comp lib="5" loc="(1520,580)" name="Hex Digit Display">
+      <a name="color" val="#067bc2"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="0" loc="(290,220)" name="Tunnel">
+      <a name="width" val="8"/>
+      <a name="label" val="G.Out"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="0" loc="(850,450)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="C"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="1" loc="(280,900)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="11" loc="(760,370)" name="Computer Node"/>
+    <comp lib="7" loc="(1010,650)" name="Button Driver"/>
+    <comp lib="1" loc="(130,910)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(310,760)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="Clock"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="4" loc="(330,610)" name="Register">
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="2" loc="(170,50)" name="Decoder">
+      <a name="disabled" val="0"/>
+    </comp>
+    <comp lib="5" loc="(1500,460)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#067bc2"/>
+    </comp>
+    <comp lib="5" loc="(930,400)" name="Hex Digit Display">
+      <a name="color" val="#e84855"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="5" loc="(1410,400)" name="Hex Digit Display">
+      <a name="color" val="#e84855"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
     <comp lib="1" loc="(260,220)" name="Controlled Buffer">
       <a name="facing" val="west"/>
       <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(1600,450)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="D"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="4" loc="(330,860)" name="Register">
+      <a name="trigger" val="low"/>
     </comp>
     <comp lib="1" loc="(780,580)" name="NAND Gate">
       <a name="size" val="30"/>
@@ -1146,106 +1222,79 @@ ee 72 d7
       <a name="labelfont" val="SansSerif bold 12"/>
       <a name="negate0" val="true"/>
     </comp>
-    <comp lib="5" loc="(930,580)" name="Hex Digit Display">
-      <a name="color" val="#067bc2"/>
+    <comp lib="5" loc="(700,460)" name="LED">
+      <a name="color" val="#e84855"/>
     </comp>
-    <comp lib="0" loc="(1750,480)" name="Pull Resistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(1380,460)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="Awaiting user"/>
+    <comp lib="0" loc="(440,700)" name="Tunnel">
+      <a name="label" val="Calculating user"/>
       <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
-    <comp lib="0" loc="(1180,460)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="Game starts"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="1" loc="(260,920)" name="Controlled Buffer">
-      <a name="facing" val="west"/>
-      <a name="width" val="8"/>
-      <a name="control" val="left"/>
-    </comp>
-    <comp lib="7" loc="(1450,650)" name="Button Driver"/>
-    <comp lib="0" loc="(280,610)" name="Bit Extender">
-      <a name="out_width" val="2"/>
-    </comp>
-    <comp lib="4" loc="(220,510)" name="ROM">
-      <a name="contents">addr/data: 8 8
-0
-</a>
-    </comp>
-    <comp lib="10" loc="(1560,470)" name="Win-Lose-Draw"/>
-    <comp lib="6" loc="(292,551)" name="Text">
-      <a name="text" val="Computer"/>
-      <a name="font" val="SansSerif bold 14"/>
-    </comp>
-    <comp lib="0" loc="(310,780)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="Clock"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="4" loc="(330,610)" name="Register">
-      <a name="width" val="2"/>
+    <comp lib="0" loc="(130,860)" name="Bit Extender">
+      <a name="in_width" val="4"/>
+      <a name="out_width" val="8"/>
+      <a name="type" val="one"/>
     </comp>
     <comp lib="0" loc="(500,940)" name="Tunnel">
       <a name="label" val="Machine thinks"/>
       <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
-    <comp lib="0" loc="(980,460)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="Calculating machine"/>
+    <comp lib="5" loc="(970,580)" name="Hex Digit Display">
+      <a name="color" val="#067bc2"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="7" loc="(830,400)" name="Button Register">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(500,900)" name="Tunnel">
+      <a name="label" val="Awaiting user"/>
       <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
-    <comp lib="7" loc="(1450,300)" name="Button Register">
+    <comp lib="5" loc="(1150,400)" name="Hex Digit Display">
+      <a name="color" val="#e84855"/>
+      <a name="bg" val="#d9d9d9"/>
+    </comp>
+    <comp lib="10" loc="(890,430)" name="Win-Lose-Draw">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="7" loc="(1230,300)" name="Button Register">
-      <a name="facing" val="west"/>
+    <comp lib="6" loc="(292,451)" name="Text">
+      <a name="text" val="Human"/>
+      <a name="font" val="SansSerif bold 14"/>
     </comp>
-    <comp lib="4" loc="(220,610)" name="RAM">
-      <a name="addrWidth" val="4"/>
-    </comp>
-    <comp lib="9" loc="(50,890)" name="Is Equal (8 bits)"/>
-    <comp lib="11" loc="(1500,600)" name="Human Node"/>
-    <comp lib="0" loc="(310,890)" name="Constant">
+    <comp lib="0" loc="(1480,460)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="value" val="0x0"/>
+      <a name="label" val="Calculating user"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
-    <comp lib="5" loc="(1500,460)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#067bc2"/>
+    <comp lib="9" loc="(40,730)" name="RAM Address Manager"/>
+    <comp lib="5" loc="(1480,400)" name="Hex Digit Display">
+      <a name="color" val="#e84855"/>
+      <a name="bg" val="#d9d9d9"/>
     </comp>
-    <comp lib="1" loc="(220,790)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-      <a name="negate0" val="true"/>
+    <comp lib="0" loc="(700,570)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="R / W"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
-    <comp lib="11" loc="(950,600)" name="Human Node"/>
-    <comp lib="11" loc="(1490,270)" name="Computer Node"/>
+    <comp lib="0" loc="(850,660)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="4"/>
+      <a name="label" val="Button"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="11" loc="(1390,600)" name="Human Node"/>
     <comp lib="7" loc="(1230,590)" name="Button Register"/>
-    <comp lib="11" loc="(1670,530)" name="Human Node"/>
+    <comp lib="1" loc="(260,920)" name="Controlled Buffer">
+      <a name="facing" val="west"/>
+      <a name="width" val="8"/>
+      <a name="control" val="left"/>
+    </comp>
+    <comp lib="7" loc="(900,590)" name="Button Register"/>
     <comp lib="5" loc="(1300,400)" name="Hex Digit Display">
       <a name="color" val="#e84855"/>
+      <a name="bg" val="#d9d9d9"/>
     </comp>
-    <comp lib="5" loc="(1690,490)" name="Hex Digit Display">
-      <a name="color" val="#067bc2"/>
-    </comp>
-    <comp lib="7" loc="(1620,520)" name="Button Register"/>
-    <comp lib="0" loc="(470,720)" name="Tunnel">
-      <a name="label" val="Calculating machine"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="0" loc="(280,810)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Memory"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="1" loc="(860,660)" name="Controlled Buffer">
-      <a name="facing" val="west"/>
-      <a name="width" val="4"/>
-      <a name="control" val="left"/>
+    <comp lib="0" loc="(1750,480)" name="Pull Resistor">
+      <a name="facing" val="north"/>
     </comp>
   </circuit>
 </project>

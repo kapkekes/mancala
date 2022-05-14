@@ -79,12 +79,13 @@ capture:
 
             ld r3, r2
             if
-                tst r3
+                tst r2
             is z
                 br skip
             fi
 
-            ldi r0, MOVE_ENDED
+            ldi r2, MOVE_ENDED
+            ld r0, r2
 
             ldi r1, 0                       # set zero
             st r0, r1                       # value for it
@@ -194,4 +195,4 @@ check_pits:
 
 
 
-end
+end.
