@@ -1,2 +1,14 @@
 project_instructions.pdf
-stuff.lnk
+
+temp
+
+paths
+timestamps
+toolchains
+tools
+
+*.py
+*.mlb
+*.cocomake
+*.exe
+*.ps1
