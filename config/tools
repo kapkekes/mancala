@@ -1,0 +1,2 @@
+cocas=python util\cocas.py->obj
+cocol=python util\cocol.py->img

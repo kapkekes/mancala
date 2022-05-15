@@ -1,14 +1,2 @@
-project_instructions.pdf
-
-temp
-
-paths
-timestamps
-toolchains
-tools
-
-*.py
-*.mlb
-*.cocomake
-*.exe
-*.ps1
+temp/*
+!temp/.gitkeep
