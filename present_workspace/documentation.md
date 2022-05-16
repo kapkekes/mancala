@@ -81,13 +81,15 @@ Six LED lights in in the center of the board denote current game state
 
 If the button is pushed, it makes all necessary checks and then decides whether to pass the address input from the previous button driver or to pass an address of pit, where the button was pushed
 
-## BUTTON REGISTER & DISPLAY DRIVER
+## Button register
 
 ![button_register_board.png](../present_workspace/button_register_board.png) </br>
 **BUTTON REGISTER CIRCUIT**
 
 ![button_register_circuit.png](../present_workspace/button_register_circuit.png) </br>
 **BUTTON REGISTER ON GAME BOARD**
+
+Combined display driver and button register. Stores pit data
 
 * `Data` - pit data from main bus
 * `Dataout` - pit data passed to main bus
