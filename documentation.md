@@ -1,7 +1,7 @@
 # mancala
 
-![Mancala.png](../present_workspace/mancala_logo_light.png#gh-dark-mode-only)
-![Mancala.png](../present_workspace/mancala_logo_dark.png#gh-light-mode-only)
+![Mancala.png](attachments/mancala_logo_light.png#gh-dark-mode-only)
+![Mancala.png](attachments/mancala_logo_dark.png#gh-light-mode-only)
 
 > by Dmitry Vashurin, Klim Bagryantsev, Tulegenova Karina
 > 17/05/2022
@@ -12,7 +12,7 @@ The Mancala game is a two-player turn-based strategy board game played with smal
 
 # Rules of the game
 
-![mancala_board.png](../present_workspace/mancala_board.png)
+![mancala_board.png](attachments/mancala_board.png)
 
 **EXAMPLE OF A MANCALA GAME BOARD**
 
@@ -35,7 +35,7 @@ When one player no longer has any seeds in any of their houses, the game ends. T
 # Game board circuits
 
 [//]: # (Revise the link)
-![mancala_gamepad.png](../export/gamepad.png)
+![mancala_gamepad.png](export/gamepad.png)
 
 This circuit represents the structure of a game board implemented in [Logisim](http://cburch.com/logisim/). All other circuits, described further, are its sub circuits by default.
 
@@ -70,10 +70,10 @@ Lower LED lights in the center are designed to mark the winner in a more obvious
 
 Proccesses button trigger signals and transmits signals to button register
 
-![button_driver_circuit.png](../present_workspace/button_driver_circuit.png) </br>
+![button_driver_circuit.png](attachments/button_driver_circuit.png) </br>
 **BUTTON DRIVER CIRCUIT**
 
-![button_driver_board.png](../present_workspace/button_driver_board.png) </br>
+![button_driver_board.png](attachments/button_driver_board.png) </br>
 **BUTTON DRIVER ON GAME PAD**
 
 * `Position` - pit position from [`Button register`](#Button-register)
@@ -88,10 +88,10 @@ If the button is pushed, driver transmits current position. Otherwise, it transm
 
 Stores pit data and transmits IO data and addresses for processor
 
-![button_register_board.png](../present_workspace/button_register_circuit.png) </br>
+![button_register_board.png](attachments/button_register_circuit.png) </br>
 **BUTTON REGISTER CIRCUIT**
 
-![button_register_circuit.png](../present_workspace/button_register_board.png) </br>
+![button_register_circuit.png](attachments/button_register_board.png) </br>
 **BUTTON REGISTER ON GAME BOARD**
 
 Combined display driver and button register. Stores pit data
@@ -112,19 +112,19 @@ In other cases data transfers through current register onto the next one
 
 Converts 8-digit processor address into a 4-digit address for Gamepad/ROM circuits
 
-![GAM_circuit.png](../present_workspace/GAM_circuit.png)
+![GAM_circuit.png](attachments/GAM_circuit.png)
 
 **GAMEPAD ADDRESS MANAGER CIRCUIT**
 
-![GAM_board.png](../present_workspace/GAM_board.png)
+![GAM_board.png](attachments/GAM_board.png)
 
 **GAM ON GAME BOARD**
 
-![RAM_circuit.png](../present_workspace/RAM_circuit.png)
+![RAM_circuit.png](attachments/RAM_circuit.png)
 
 **RAM ADDRESS MANAGER CIRCUIT**
 
-![RAM_board.png](../present_workspace/RAM_board.png)
+![RAM_board.png](attachments/RAM_board.png)
 
 **RAM ON GAME BOARD**
 
@@ -132,10 +132,10 @@ Converts 8-digit processor address into a 4-digit address for Gamepad/ROM circui
 
 Win-lose-draw chip establishes the outcome of the game
 
-![WLD_circuit.png](../present_workspace/WLD_circuit.png) </br>
+![WLD_circuit.png](attachments/WLD_circuit.png) </br>
 **WLD CHIP CIRCUIT**
 
-![WLD_board.png](../present_workspace/WLD_board.png) </br>
+![WLD_board.png](attachments/WLD_board.png) </br>
 **WLD CHIP ON GAME BOARD**
 
 Gets the amount of seeds in player's mancala and asserts the winner of the game
@@ -146,7 +146,7 @@ It also checks whether the player's pits are empty or not
 
 # Processor circuits
 
-![processor.png](../present_workspace/processor.png)
+![processor.png](attachments/processor.png)
 **PROCESSOR RELATED CIRCUITS**
 
 In the executive part of our game we have 4 ROMs for game related instruction sets and data managment
@@ -155,10 +155,10 @@ In the executive part of our game we have 4 ROMs for game related instruction se
 
 Stores the information about the last turn
 
-![user_input_circuit](../present_workspace/UI_circuit.png) </br>
+![user_input_circuit](attachments/UI_circuit.png) </br>
 **USER INPUT REGISTER CIRCUIT**
 
-![user_input_processor](../present_workspace/UI_processor.png) </br>
+![user_input_processor](attachments/UI_processor.png) </br>
 **USER INPUT REGISTER IN CIRCUITRY**
 
 * `User input` - gets an address from `Button driver` or the default value
@@ -171,20 +171,20 @@ Stores the information about the last turn
 
 Prohibits processor to access ROMs if the game is not currently working with instructions
 
-![BCB_circuit.png](../present_workspace/BCB_circuit.png) </br>
+![BCB_circuit.png](attachments/BCB_circuit.png) </br>
 **BIG CONTROLLED BUFFER CIRCUIT**
 
-![BCB_processor.png](../present_workspace/BCB_processor.png) </br>
+![BCB_processor.png](attachments/BCB_processor.png) </br>
 **BIG CONTROLLED BUFFER IN CIRCUITRY**
 
 ## ROM manager
 
 Stores information into ROM switching register and transmit signal to a certain ROM bank
 
-![ROM_circuit.png](../present_workspace/ROM_circuit.png) </br>
+![ROM_circuit.png](attachments/ROM_circuit.png) </br>
 **ROM MANAGER CIRCUIT**
 
-![ROM_processor.png](../present_workspace/ROM_processor.png) </br>
+![ROM_processor.png](attachments/ROM_processor.png) </br>
 **ROM MANAGER IN CIRCUITRY**
 
 * `Data` - data generated by `Data Bus`
