@@ -1,7 +1,7 @@
 # mancala
 
-![Mancala.png](../present_workspace/mancala_logo_text_light.png#gh-dark-mode-only)
-![Mancala.png](../present_workspace/mancala_logo_text.png#gh-light-mode-only)
+![Mancala.png](../present_workspace/mancala_logo_light.png#gh-dark-mode-only)
+![Mancala.png](../present_workspace/mancala_logo_dark.png#gh-light-mode-only)
 
 > by Dmitry Vashurin, Klim Bagryantsev, Tulegenova Karina
 >17/05/2022
