@@ -2,7 +2,7 @@
 Kalah (6, 4) game for Logisim, built on the CdM-8 processor.
 
 ---
-| ![the Mancala Gamepad](resources/gamepad_small.png)|
+| ![the Mancala Gamepad](resources/gamepad.png)|
 |:-----------------------------------------------:|
 |                 Mancala Gamepad                 |
 
