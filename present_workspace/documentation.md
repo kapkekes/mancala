@@ -1,50 +1,54 @@
 # mancala
 
-![Mancala.png]()
+![Mancala.png](https://github.com/kapkekes/mancala/blob/development/present_workspace/mancala_logo_text_light.png)
 
-by Dmitry Vashurin, Tulegenova Karina &amp; Klim Bagryantsev
-
-written 17/05/2022
+> by Dmitry Vashurin, Klim Bagryantsev, Tulegenova Karina
+>17/05/2022
 
 ## INTRODUCTION
 
-The Mancala game is a two-player turn-based strategy board game played with small objects and rows of pits. The objective is usually to capture all or some amount of the opponent&#39;s pieces. Mancala has many variations, which differ from region to region. Our implementation refers to a version invented by William Julius Champion, USA.
+The Mancala game is a two-player turn-based strategy board game played with small objects and rows of pits. The objective is usually to capture all or some amount of the opponent's pieces. Mancala has many variations, which differ from region to region. Our implementation refers to a version invented by William Julius Champion, USA.
 
 ## RULES OF THE GAME
 
 ![Mancala_board.png](https://github.com/kapkekes/mancala/blob/development/present_workspace/mancala_board.png "Example of a Mancala game board")
 
-Our variation considers six small pits on each side and a big pit, called mancala, at each end. Each player controls the pits and their seeds on his side of the board. The object of the game is to get more seeds to your mancala than your opponent. At the beginning of the game, allpits have four seeds and players&#39; mancalas are empty.
+Our variation considers six small pits on each side and a big pit, called mancala, at each end. Each player controls the pits and their seeds on his side of the board. The object of the game is to get more seeds to your mancala than your opponent. At the beginning of the game, allpits have four seeds and players' mancalas are empty.
 
 **Turn**
 
-- During the turn, the player removes all seeds from one of his pits. Moving counter-clockwise, the player drops one seed in each pit next to initial, including the player&#39;s mancala but not opponent&#39;s one
+- During the turn, the player removes all seeds from one of his pits. Moving counter-clockwise, the player drops one seed in each pit next to initial, including the player's mancala but not opponent's one
 
 **Capture**
 
-- If the last seed lands in an empty player&#39;s pit and the opposite pit contains seeds, both the last seed and the opposite seeds goes to player&#39;s mancala
+- If the last seed lands in an empty player's pit and the opposite pit contains seeds, both the last seed and the opposite seeds goes to player's mancala
 
 **Extra move**
 
-- If the last seed lands in the player&#39;s mancala, the player gets an extra move. There is no limit on the moves a player can make in their turn.
+- If the last seed lands in the player's mancala, the player gets an extra move. There is no limit on the moves a player can make in their turn.
 
 When one player no longer has any seeds in any of their houses, the game ends. The other player moves all remaining seeds to their store, and the player with the most seeds in their store wins. The game may result in a draw.
 
+---
+
 ## GAME BOARD
 
-![](RackMultipart20220516-1-lrjkau_html_8e9f9c3d1b85f6ae.png)
+![mancala_gamepad.png](https://github.com/kapkekes/mancala/blob/development/export/gamepad_small.png)
 
 The above circuit represents the structure of a game board implemented in Logisim. All other circuits, described further, are its sub circuits by default.
 
 Six LED lights in in the center of the board denote current game state
 
-| **Calculating machine** | AI player&#39;s move processing |
+|Component's name| Component's description |
 | --- | --- |
+| **Calculating machine** | AI player's move processing |
 | **Machine thinks** | AI player calculates the best move (see Computer ROM) |
 | **Game starts** | Filling pits with seeds (see Initialization ROM) |
 | **Checking rules** | see Referee ROM |
 | **Awaiting user** | The game pauses till the player makes his move |
-| **Calculating user** | Player&#39;s move processing |
+| **Calculating user** | Player's move processing |
+
+---
 
 ## BUTTON DRIVER
 
@@ -58,8 +62,8 @@ Six LED lights in in the center of the board denote current game state
 
 **BUTTON DRIVER CIRCUIT**
 
-| **TRIGGER** | Checks that only one button is pushed |
-| --- | --- |
+| **TRIGGER** |  Checks that only one button is pushed  |
+| --- |  ---  |
 | **IS ZERO** | Checks whether the pit has seeds or not |
 | **BUTTON** | Signal from button trigger |
 | **ADDRESS (INPUT)** | Gets an address from the previous button (0000 by default) |
@@ -127,40 +131,40 @@ Converts 8-digit input address into a 4-digit output address for Gamepad/ROM
 
 **WLD CHIP CIRCUIT**
 
-Gets the amount of seeds in player&#39;s mancala and judges on the amount of seeds who is the winner. It is obvious that more than a half of stones in one&#39;s mancala guarantees that the player has won. It also checks whether the player&#39;s pits are empty or not.
+Gets the amount of seeds in player's mancala and judges on the amount of seeds who is the winner. It is obvious that more than a half of stones in one's mancala guarantees that the player has won. It also checks whether the player's pits are empty or not.
 
 ## DATA STRUCTURE
 
 ![](RackMultipart20220516-1-lrjkau_html_a543793d05455451.png)
 
-The game reads and writes the pits&#39; data to these memory blocks, so that the Computers and Player&#39;s ROMs can make proper decisions.
+The game reads and writes the pits' data to these memory blocks, so that the Computers and Player's ROMs can make proper decisions.
 
 RAM block contains data about the last move. I.e. the pit where the move ended up, whom of the players has made the last move and other miscellaneous information.
 
 ROM switching register is suited for &quot;jumper&quot; template, which switches different ROM blocks.
 
-Turn register&#39;s object is to store information about player, who must make next move.
+Turn register's object is to store information about player, who must make next move.
 
 ## ROM BANKS STRUCTURE
 
 INITIALIZATION BANK
 
-Initializes the values in the players&#39; pits and switches to a Human ROM bank to let the player make his first move.
+Initializes the values in the players' pits and switches to a Human ROM bank to let the player make his first move.
 
 REFEREE BANK
 
-Executes the capture rule and the extra move rule. Judges who will be the next to make a turn and switches to a proper player&#39;s bank. Checks whether all pits are empty or not.
+Executes the capture rule and the extra move rule. Judges who will be the next to make a turn and switches to a proper player's bank. Checks whether all pits are empty or not.
 
 HUMAN BANK
 
-Processes player&#39;s move: executes sowing, stores the data to RAM block and switches to the Referee Bank
+Processes player's move: executes sowing, stores the data to RAM block and switches to the Referee Bank
 
 COMPUTER BANK
 
-One of the computer bank&#39;s tasks is to calculate the best move and because it is hard to implement some extraordinary AI in Assembly code -\&gt; our realization just checks whether it is possible to get an extra move or to capture opponent&#39;s seeds. Otherwise, it just makes any possible move.
+One of the computer bank's tasks is to calculate the best move and because it is hard to implement some extraordinary AI in Assembly code -\&gt; our realization just checks whether it is possible to get an extra move or to capture opponent's seeds. Otherwise, it just makes any possible move.
 
-The other part of the bank simply executes AI&#39;s turn according to the rules of the game the same way Human bank does.
+The other part of the bank simply executes AI's turn according to the rules of the game the same way Human bank does.
 
 ## PITS OPERATION SYSTEM
 
-All necessary calculations are executed in ROM blocks, so that the game board is in fact consists of a bus for reading and writing necessary data into button registers and 7-segment displays to represent the pit&#39;s values. It allows us to simplify the circuit&#39;s structure.
+All necessary calculations are executed in ROM blocks, so that the game board is in fact consists of a bus for reading and writing necessary data into button registers and 7-segment displays to represent the pit's values. It allows us to simplify the circuit's structure.
