@@ -1,3 +1,4 @@
 temp/*
 !temp/.gitkeep
-.vscode/tasks.json
+
+.vscode/
