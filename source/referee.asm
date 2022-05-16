@@ -6,17 +6,17 @@
 
 # DEVICE BLOCK
 # ==================================================
-define BANK_REGISTER, 0xF0
-define MOVE_REGISTER, 0xF8
+define ROM_CONTROLLER, 0xF0
+define UI_REGISTER, 0xF8
 
-define HUMAN_PIT, 0xF1
-define HUMAN_MANCALA, 0xF7
+define USER_PIT, 0xF1
+define USER_MANCALA, 0xF7
 define COMPUTER_PIT, 0xF9
 define COMPUTER_MANCALA, 0xFF
 
 define INITIALIZATION_BANK, 0
 define REFEREE_BANK, 1
-define HUMAN_BANK, 2
+define USER_BANK, 2
 define COMPUTER_BANK, 3
 # ==================================================
 # DEVICE BLOCK
@@ -38,8 +38,8 @@ MOVE_ENDED:  ds 1
 # ==================================================
 asect 0x00
 
-jumper:
-    ldi r0, BANK_REGISTER
+switch_header:
+    ldi r0, ROM_CONTROLLER
     ldi r2, 0
     ldi r3, 0
     st r0, r1
@@ -48,7 +48,7 @@ capture:
     if
         ldi r0, MOVE_ENDED                  #
         ld r0, r2                           #
-        ldi r1, HUMAN_MANCALA               #
+        ldi r1, USER_MANCALA                #
         cmp r2, r1                          #
     is ne, and                              #
         ldi r1, COMPUTER_MANCALA            # 
@@ -93,7 +93,7 @@ capture:
             move r3, r0
 
             ld r0, r1                       # number of seeds, which
-            inc r1                          # should be added to a mancala
+            inc r1                          # should Sbe added to a mancala
 
             ldi r2, 0                       # nullify the
             st r0, r2                       # opposite pit
@@ -105,7 +105,7 @@ capture:
             if                              #
                 cmp r0, r2                  #
             is eq                           #
-                ldi r2, HUMAN_MANCALA       # get address of his mancala
+                ldi r2, USER_MANCALA        # get address of his mancala
             else                            #
                 ldi r2, COMPUTER_MANCALA    #
             fi                              #
@@ -123,8 +123,8 @@ skip:
     ldi r1, COMPUTER_MANCALA
     jsr check_pits
 
-    ldi r0, HUMAN_PIT
-    ldi r1, HUMAN_MANCALA
+    ldi r0, USER_PIT
+    ldi r1, USER_MANCALA
     jsr check_pits
 
     if                              #
@@ -134,23 +134,23 @@ skip:
     fi                              #
 
     ldi r2, 0
-    ldi r0, HUMAN_PIT
+    ldi r0, USER_PIT
     jsr check_pits
 
     if                              #
         tst r2                      #
-    is z                            # human player doesn't have an
+    is z                            # USER player doesn't have an
         ldi r1, COMPUTER_BANK       # opportunity to make a move
-        br jumper                   #
+        br switch_header            #
     fi                              #
 
     if                              #
         ldi r2, MOVE_ENDED          #
         ld r2, r1                   #
         cmp r0, r1                  # REPEAT RULE:
-    is eq                           # HUMAN!!!
-        ldi r1, HUMAN_BANK          #
-        br jumper                   #
+    is eq                           # USER!!!
+        ldi r1, USER_BANK           #
+        br switch_header            #
     fi                              #
 
     if                              #
@@ -160,8 +160,8 @@ skip:
         jsr check_pits              # computer doesn't have an 
         tst r2                      # opportunity to make a move
     is z                            #
-        ldi r1, HUMAN_BANK          #
-        br jumper                   #
+        ldi r1, USER_BANK           #
+        br switch_header            #
     fi                              #
 
     if                              #
@@ -170,7 +170,7 @@ skip:
         cmp r0, r1                  # REPEAT RULE:
     is eq                           # COMPUTER!!!
         ldi r1, COMPUTER_BANK       #
-        br jumper                   #
+        br switch_header            #
     fi                              #
 
     ldi r1, 5                       #
@@ -178,7 +178,7 @@ skip:
     ld r3, r0                       # player
     sub r1, r0                      # change
     move r0, r1                     #
-    br jumper                       #
+    br switch_header                #
 
 check_pits:
     while

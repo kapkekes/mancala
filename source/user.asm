@@ -1,22 +1,22 @@
 # ==================================================
-# Memory bank #2: human player handler
+# Memory bank #2: USER player handler
 # ==================================================
 
 
 
 # DEVICE BLOCK
 # ==================================================
-define BANK_REGISTER, 0xF0
-define MOVE_REGISTER, 0xF8
+define ROM_CONTROLLER, 0xF0
+define UI_REGISTER, 0xF8
 
-define HUMAN_PIT, 0xF1
-define HUMAN_MANCALA, 0xF7
+define USER_PIT, 0xF1
+define USER_MANCALA, 0xF7
 define COMPUTER_PIT, 0xF9
 define COMPUTER_MANCALA, 0xFF
 
 define INITIALIZATION_BANK, 0
 define REFEREE_BANK, 1
-define HUMAN_BANK, 2
+define USER_BANK, 2
 define COMPUTER_BANK, 3
 # ==================================================
 # DEVICE BLOCK
@@ -38,14 +38,14 @@ MOVE_ENDED:  ds 1
 # ==================================================
 asect 0x00
 
-jumper:
-    ldi r0, BANK_REGISTER
+switch_header:
+    ldi r0, ROM_CONTROLLER
     ldi r2, 0
     ldi r3, 0
     st r0, r1
 
 code:
-    ldi r0, MOVE_REGISTER
+    ldi r0, UI_REGISTER
     ldi r1, 0xFF
     ldi r2, 0xFF
     st r0, r1                           # unlock MR (aka Move Register)
@@ -55,12 +55,8 @@ code:
         cmp r1, r2                      # r1 will store address of chosen pit
     until ne
 
-    ldi r2, 0xF0                        # a non-(0xFF) value to lock MR
-    st r0, r2                           # locking of MR itself
-
     ldi r3, LAST_MOVE                   # load the RAM address
     st r3, r1                           # store chosen address
-
     
     ld r1, r0                           # r0 stores seeds from chosen pit
 
@@ -75,15 +71,15 @@ code:
 
         if                              #
             ldi r2, 0xF8                #
-            cmp r1, r2                  # if needed, jump from MOVE_REGISTER (0xF8)
-        is eq                           #                   to COMPUTER_PIT  (0xF9)
+            cmp r1, r2                  # if needed, jump from UI_REGISTER  (0xF8)
+        is eq                           #                   to COMPUTER_PIT (0xF9)
             inc r1                      # 
         fi                              #
         
         if                              #
             ldi r2, COMPUTER_MANCALA    #
             cmp r1, r2                  # if needed, jump from COMPUTER_MANCALA (0xFF)
-        is eq                           #                   to HUMAN_PIT        (0xF1)
+        is eq                           #                   to USER_PIT         (0xF1)
             ldi r1, 0xF1                #
         fi                              #
 
@@ -103,7 +99,7 @@ code:
     st r3, r2
     
     ldi r1, REFEREE_BANK                # choose referee's bank
-    br jumper                           # go to the next bank
+    br switch_header                    # go to the next bank
 
 # ==================================================
 # MAIN CODE BLOCK

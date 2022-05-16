@@ -6,17 +6,17 @@
 
 # DEVICE BLOCK
 # ==================================================
-define BANK_REGISTER, 0xF0
-define MOVE_REGISTER, 0xF8
+define ROM_CONTROLLER, 0xF0
+define UI_REGISTER, 0xF8
 
-define HUMAN_PIT, 0xF1
-define HUMAN_MANCALA, 0xF7
+define USER_PIT, 0xF1
+define USER_MANCALA, 0xF7
 define COMPUTER_PIT, 0xF9
 define COMPUTER_MANCALA, 0xFF
 
 define INITIALIZATION_BANK, 0
 define REFEREE_BANK, 1
-define HUMAN_BANK, 2
+define USER_BANK, 2
 define COMPUTER_BANK, 3
 # ==================================================
 # DEVICE BLOCK
@@ -38,8 +38,8 @@ MOVE_ENDED:  ds 1
 # ==================================================
 asect 0x00
 
-jumper:
-	ldi r0, BANK_REGISTER
+switch_header:
+	ldi r0, ROM_CONTROLLER
     ldi r2, 0
     ldi r3, 0
     st r0, r1
@@ -49,8 +49,8 @@ code:
     ldi r2, 4                   # pit value
     ldi r3, 0                   # mancala value
 
-    ldi r0, HUMAN_PIT           # start at
-    ldi r1, HUMAN_MANCALA       # stop at
+    ldi r0, USER_PIT            # start at
+    ldi r1, USER_MANCALA        # stop at
 
     while
         cmp r1, r0              # is the next register not the player mancala 
@@ -73,8 +73,8 @@ code:
 
     st r0, r3                   # ensure that computer's mancala is empty
 	
-    ldi r1, HUMAN_BANK          # choose player's bank
-    br jumper                   # go to the next bank
+    ldi r1, USER_BANK           # choose player's bank
+    br switch_header            # go to the next bank
 
 # ==================================================
 # MAIN CODE BLOCK
