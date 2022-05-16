@@ -58,9 +58,11 @@ Six LED lights in in the center of the board denote current game state
 ## BUTTON DRIVER
 
 ![button_driver_circuit.png](../present_workspace/button_driver_circuit.png)
+
 **BUTTON DRIVER CIRCUIT**
 
 ![button_driver_board.png](../present_workspace/button_driver_board.png)
+
 **BUTTON DRIVER ON GAME PAD**
 
 * `Button`- signal from `Button trigger`
@@ -116,15 +118,19 @@ In other cases data transfers through current register onto the next one
 ## RAM & GAMEPAD ADDRESS MANAGER
 
 ![GAM_circuit.png](../present_workspace/GAM_circuit.png)
+
 **GAMEPAD ADDRESS MANAGER CIRCUIT**
 
 ![GAM_board.png](../present_workspace/GAM_board.png)
+
 **GAM ON GAME BOARD**
 
 ![RAM_circuit.png](../present_workspace/RAM_circuit.png)
+
 **RAM ADDRESS MANAGER CIRCUIT**
 
 ![RAM_board.png](../present_workspace/RAM_board.png)
+
 **RAM ON GAME BOARD**
 
 Converts 8-digit input address into a 4-digit output address for Gamepad/ROM
