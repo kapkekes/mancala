@@ -1,1 +1,1 @@
-util/ linguist-detectable=false
+util/* linguist-detectable=false
