@@ -33,11 +33,14 @@ When one player no longer has any seeds in any of their houses, the game ends. T
 
 # Circuits description
 
-## GAME BOARD
+## Game board
 
 ![mancala_gamepad.png](../export/gamepad_small.png)
 
 The above circuit represents the structure of a game board implemented in Logisim. All other circuits, described further, are its sub circuits by default.
+
+### Bus structure
+
 
 Six LED lights in in the center of the board denote current game state
 
@@ -130,43 +133,53 @@ Converts 8-digit input address into a 4-digit output address for Gamepad/ROM
 
 ## WIN-LOSE-DRAW CHIP
 
-![WLD_circuit.png](needs_update)
+![WLD_circuit.png](../present_workspace/WLD_circuit.png)
 **WLD CHIP CIRCUIT**
 
-![WLD_board.png](needs_update)
+![WLD_board.png](../present_workspace/WLD_board.png)
 **WLD CHIP ON GAME BOARD**
 
-Gets the amount of seeds in player's mancala and judges on the amount of seeds who is the winner. 
+Gets the amount of seeds in player's mancala and judges on the amount of seeds who is the winner
 
 !!! notice "It also checks whether the player's pits are empty or not."
 
 > It is obvious that more than a half of stones in one's mancala guarantees that the player has won
 
-# DATA STRUCTURE
+# Data structure
 
-The game reads and writes the pits' data to these memory blocks, so that the Computers and Player's ROMs can make proper decisions.
+This section is for explanations for data structure 
 
-RAM block contains data about the last move. I.e. the pit where the move ended up, whom of the players has made the last move and other miscellaneous information.
+## Memory planning
 
-ROM switching register is suited for "jumper" template, which switches different ROM blocks.
+`00-DF` - 
+`E0-EF` - RAM block
+`E0-EF` - RAM block
+`F0` - ROM swithcing register
+`F1-F7` - user's pits & mancala
+`F8` - turn register
+`F9-FF` - AI's pits & mancala
 
-Turn register's object is to store information about player, who must make next move.
+> In fact, except for the RAM block, every other register is located around the main circuit in proper sub circuits
 
-## ROM BANKS STRUCTURE
+* `RAM block` - contains data about the last move. I.e. the pit where the move ended up, whom of the players has made the last move and other miscellaneous information
+* `ROM switching register` is suited for "jumper" template, which switches different ROM blocks
+* `Turn register` stores information about player, who must make next move
 
-INITIALIZATION BANK
+## ROM banks
+
+**INITIALIZATION BANK**
 
 Initializes the values in the players' pits and switches to a Human ROM bank to let the player make his first move.
 
-REFEREE BANK
+**REFEREE BANK**
 
 Executes the capture rule and the extra move rule. Judges who will be the next to make a turn and switches to a proper player's bank. Checks whether all pits are empty or not.
 
-HUMAN BANK
+**HUMAN BANK**
 
 Processes player's move: executes sowing, stores the data to RAM block and switches to the Referee Bank
 
-COMPUTER BANK
+**COMPUTER BANK**
 
 One of the computer bank's tasks is to calculate the best move and because it is hard to implement some extraordinary AI in Assembly code our realization just checks whether it is possible to get an extra move or to capture opponent's seeds. Otherwise, it just makes any possible move.
 
