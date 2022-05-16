@@ -159,11 +159,11 @@ This section is for explanations for data structure
 
 `00-DF` - 
 `E0-EF` - RAM block </br>
-`E0-EF` - RAM block
-`F0` - ROM swithcing register
-`F1-F7` - user's pits & mancala
-`F8` - turn register
-`F9-FF` - AI's pits & mancala
+`E0-EF` - RAM block </br>
+`F0` - ROM swithcing register </br>
+`F1-F7` - user's pits & mancala </br>
+`F8` - turn register </br>
+`F9-FF` - AI's pits & mancala </br>
 
 > In fact, except for the RAM block, every other register is located around the main circuit in proper sub circuits
 
