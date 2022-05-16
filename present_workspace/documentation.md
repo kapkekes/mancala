@@ -1,6 +1,6 @@
 # mancala
 
-![Mancala.png](kapkekes/mancala/blob/development/present_workspace/mancala_logo_text_light.png)
+![Mancala.png](../present_workspace/mancala_logo_text_light.png)
 
 > by Dmitry Vashurin, Klim Bagryantsev, Tulegenova Karina
 >17/05/2022
