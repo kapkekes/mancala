@@ -103,9 +103,7 @@ When the position is equal to address, while the selector is in Write mode, give
 
 In other cases data transfers through current register onto the next one
 
----
-
-## RAM & GAMEPAD ADDRESS MANAGER
+## RAM & Gamepad address manager
 
 ![GAM_circuit.png](../present_workspace/GAM_circuit.png)
 
@@ -127,7 +125,7 @@ Converts 8-digit input address into a 4-digit output address for Gamepad/ROM
 
 ---
 
-## WIN-LOSE-DRAW CHIP
+## WLD chip
 
 ![WLD_circuit.png](../present_workspace/WLD_circuit.png)
 **WLD CHIP CIRCUIT**
