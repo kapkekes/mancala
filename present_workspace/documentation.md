@@ -1,6 +1,7 @@
 # mancala
 
-![Mancala.png](../present_workspace/mancala_logo_text_light.png)
+![Mancala.png](../present_workspace/mancala_logo_text_light.png) #gh-dark-mode-only
+![Mancala.png](../present_workspace/mancala_logo_text.png) #gh-light-mode-only
 
 > by Dmitry Vashurin, Klim Bagryantsev, Tulegenova Karina
 >17/05/2022
@@ -41,6 +42,15 @@ The above circuit represents the structure of a game board implemented in Logisi
 
 ### Bus structure
 
+Bus is connected to button registers
+
+* `Data` - pit data
+* `Position` - pit position
+* `Address` - pit address
+* `R/W selector` - processor R/W signal
+* `Clock` - system clock signal
+
+### LED signals
 
 Six LED lights in in the center of the board denote current game state
 
@@ -52,8 +62,6 @@ Six LED lights in in the center of the board denote current game state
 | **Checking rules** | see Referee ROM |
 | **Awaiting user** | The game pauses till the player makes his move |
 | **Calculating user** | Player's move processing |
-
----
 
 ## BUTTON DRIVER
 
