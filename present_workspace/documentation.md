@@ -1,26 +1,18 @@
-#
-# Co-design
+# mancala
 
-#
-# Group Project C
-
-&quot;
-#
-# The Game of Mancala&quot;
+![Mancala.png]()
 
 by Dmitry Vashurin, Tulegenova Karina &amp; Klim Bagryantsev
 
-17/05/2022
+written 17/05/2022
 
 ## INTRODUCTION
 
 The Mancala game is a two-player turn-based strategy board game played with small objects and rows of pits. The objective is usually to capture all or some amount of the opponent&#39;s pieces. Mancala has many variations, which differ from region to region. Our implementation refers to a version invented by William Julius Champion, USA.
 
-![Mancala_board.png](RackMultipart20220516-1-lrjkau_html_ca9a4c4b186d6dd3.gif)
-
-\*example of a Mancala game board
-
 ## RULES OF THE GAME
+
+![Mancala_board.png](https://github.com/kapkekes/mancala/blob/development/present_workspace/mancala_board.png "Example of a Mancala game board")
 
 Our variation considers six small pits on each side and a big pit, called mancala, at each end. Each player controls the pits and their seeds on his side of the board. The object of the game is to get more seeds to your mancala than your opponent. At the beginning of the game, allpits have four seeds and players&#39; mancalas are empty.
 
