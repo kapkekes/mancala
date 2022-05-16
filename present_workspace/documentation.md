@@ -65,10 +65,10 @@ Six LED lights in in the center of the board denote current game state
 
 ## BUTTON DRIVER
 
-![button_driver_circuit.png](../present_workspace/button_driver_circuit.png) <\br>
+![button_driver_circuit.png](../present_workspace/button_driver_circuit.png) </br>
 **BUTTON DRIVER CIRCUIT**
 
-![button_driver_board.png](../present_workspace/button_driver_board.png) <\br>
+![button_driver_board.png](../present_workspace/button_driver_board.png) </br>
 **BUTTON DRIVER ON GAME PAD**
 
 * `Button`- signal from `Button trigger`
