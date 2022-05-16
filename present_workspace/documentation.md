@@ -55,7 +55,7 @@ Bus is connected to button registers
 Six LED lights in in the center of the board denote current game state
 
 |         I/O port        |                    Desription                         |
-| :---------------------: | :---------------------------------------------------: |
+| :---------------------: | :---------------------------------------------------  |
 | **Calculating machine** | AI player's move processing                           |
 | **Machine thinks**      | AI player calculates the best move (see Computer ROM) |
 | **Game starts**         | Filling pits with seeds (see Initialization ROM)      |
