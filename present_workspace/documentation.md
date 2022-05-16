@@ -63,7 +63,7 @@ Six LED lights in in the center of the board denote current game state
 | **Awaiting user**       | The game pauses till the player makes his move        |
 | **Calculating user**    | Player's move processing                              |
 
-## BUTTON DRIVER
+## Button driver
 
 ![button_driver_circuit.png](../present_workspace/button_driver_circuit.png) </br>
 **BUTTON DRIVER CIRCUIT**
