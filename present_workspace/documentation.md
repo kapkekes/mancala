@@ -11,7 +11,7 @@ The Mancala game is a two-player turn-based strategy board game played with smal
 
 ## RULES OF THE GAME
 
-![Mancala_board.png](../kapkekes/mancala/blob/development/present_workspace/mancala_board.png)
+![Mancala_board.png](../present_workspace/mancala_board.png)
 *EXAMPLE OF A MANCALA GAMEPAD*
 
 Our variation considers six small pits on each side and a big pit, called mancala, at each end. Each player controls the pits and their seeds on his side of the board. The object of the game is to get more seeds to your mancala than your opponent. At the beginning of the game, allpits have four seeds and players' mancalas are empty.
@@ -34,7 +34,7 @@ When one player no longer has any seeds in any of their houses, the game ends. T
 
 ## GAME BOARD
 
-![mancala_gamepad.png](kapkekes/mancala/blob/development/export/gamepad_small.png)
+![mancala_gamepad.png](../export/gamepad_small.png)
 
 The above circuit represents the structure of a game board implemented in Logisim. All other circuits, described further, are its sub circuits by default.
 
@@ -53,10 +53,10 @@ Six LED lights in in the center of the board denote current game state
 
 ## BUTTON DRIVER
 
-![button_driver_circuit.png](kapkekes/mancala/blob/development/present_workspace/button_driver_circuit.png)
+![button_driver_circuit.png](../present_workspace/button_driver_circuit.png)
 *BUTTON DRIVER CIRCUIT*
 
-![button_driver_board.png](kapkekes/mancala/blob/development/present_workspace/button_driver_board.png)
+![button_driver_board.png](../present_workspace/button_driver_board.png)
 *BUTTON DRIVER ON GAME PAD*
 
 * `Button`- signal from `Button trigger`
@@ -87,10 +87,10 @@ If the button is pushed, it makes all necessary checks and then decides whether 
 
 ## BUTTON REGISTER & DISPLAY DRIVER
 
-![button_register_board.png](kapkekes/mancala/blob/development/present_workspace/button_register_board.png)
+![button_register_board.png](../present_workspace/button_register_board.png)
 *BUTTON REGISTER CIRCUIT*
 
-![button_register_circuit.png](kapkekes/mancala/blob/development/present_workspace/button_register_circuit.png)
+![button_register_circuit.png](../present_workspace/button_register_circuit.png)
 *BUTTON REGISTER ON GAME BOARD*
 
 |I/O port| Description |
@@ -111,16 +111,16 @@ In other cases data transfers through current register onto the next one
 
 ## RAM & GAMEPAD ADDRESS MANAGER
 
-![GAM_circuit.png](kapkekes/mancala/blob/development/present_workspace/GAM_circuit.png)
+![GAM_circuit.png](../present_workspace/GAM_circuit.png)
 **GAMEPAD ADDRESS MANAGER CIRCUIT**
 
-![GAM_board.png](kapkekes/mancala/blob/development/present_workspace/GAM_board.png)
+![GAM_board.png](../present_workspace/GAM_board.png)
 **GAM ON GAME BOARD**
 
-![RAM_circuit.png](kapkekes/mancala/blob/development/present_workspace/RAM_circuit.png)
+![RAM_circuit.png](../present_workspace/RAM_circuit.png)
 **RAM ADDRESS MANAGER CIRCUIT**
 
-![RAM_board.png](kapkekes/mancala/blob/development/present_workspace/RAM_board.png)
+![RAM_board.png](../present_workspace/RAM_board.png)
 **RAM ON GAME BOARD**
 
 Converts 8-digit input address into a 4-digit output address for Gamepad/ROM
