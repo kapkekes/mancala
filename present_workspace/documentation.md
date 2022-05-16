@@ -11,7 +11,7 @@ The Mancala game is a two-player turn-based strategy board game played with smal
 
 ## RULES OF THE GAME
 
-![Mancala_board.png](kapkekes/mancala/blob/development/present_workspace/mancala_board.png)
+![Mancala_board.png](../kapkekes/mancala/blob/development/present_workspace/mancala_board.png)
 *EXAMPLE OF A MANCALA GAMEPAD*
 
 Our variation considers six small pits on each side and a big pit, called mancala, at each end. Each player controls the pits and their seeds on his side of the board. The object of the game is to get more seeds to your mancala than your opponent. At the beginning of the game, allpits have four seeds and players' mancalas are empty.
