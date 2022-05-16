@@ -158,7 +158,7 @@ This section is for explanations for data structure
 ## Memory planning
 
 `00-DF` - 
-`E0-EF` - RAM block
+`E0-EF` - RAM block </br>
 `E0-EF` - RAM block
 `F0` - ROM swithcing register
 `F1-F7` - user's pits & mancala
